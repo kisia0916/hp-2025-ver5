@@ -3,10 +3,23 @@ import React from 'react'
 function Top() {
   return (
     <div className='w-full flex'>
-      <div className='m-auto w-[95%]'>
+      <div className='m-auto w-full'>
         <div className='w-full flex'>
-            <div className='m-auto mt-7 relative flex'>
-              <div>
+          <div className='w-full m-auto mt-7 relative flex'>
+            <div className='w-full relative'>
+              <div className='w-full'>
+                <p className='text-[#0065F8] main-font text-6xl z-10 relative m-auto responsive-text'>KIGYOKUSAI</p>
+              </div>
+              <div className='w-full h-[380px] bg-amber-300 rounded-2xl mt-8 z-0 '>
+                <img src="/photo/pic.png" className='w-full h-full object-cover rounded-2xl relative'/>
+              </div>
+            </div>
+            <p className='text-white main-font text-6xl responsive-text responsive-text-year z-10 absolute font-bold title-text ml-1 leading-12 mt-15'>
+                    2025
+            </p>
+          </div>
+            {/* <div className='m-auto mt-7 relative flex'>
+              <div className='w-full'>
                 <p className='text-[#0065F8] main-font text-6xl z-10 relative'>KIGYOKUSAI</p>
                 <div className='w-full h-[380px] bg-amber-300 rounded-2xl mt-8 z-0 '>
                     <img src="/photo/pic.png" className='w-full h-full object-cover rounded-2xl relative'/>
@@ -15,7 +28,7 @@ function Top() {
               <p className='text-white main-font text-6xl z-10 absolute font-bold title-text ml-1 leading-12 mt-15'>
                   2025
               </p>
-            </div>
+            </div> */}
         </div>
         <div className='w-full'>
           <div className='w-full flex'>

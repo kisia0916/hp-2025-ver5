@@ -40,3 +40,12 @@ body {
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #222831;
 }
+@media (max-width: 400px) {
+  .responsive-text {
+    display: flex;
+    font-size:330%;
+  }
+  .responsive-text-year{
+    margin-top: 15%;
+  }
+}
