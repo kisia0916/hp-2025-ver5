@@ -4,7 +4,7 @@ import MoreButton from './MoreButton/MoreButton'
 
 function News() {
   return (
-    <div className='w-full mt-10'>
+    <div className='w-full mt-10 '>
         <div className='w-full flex'>
             <div className='m-auto'>
                 <p className='main-font text-4xl m-auto text-amber-400'>News</p>
