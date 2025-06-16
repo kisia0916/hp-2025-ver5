@@ -1,8 +1,9 @@
+
 import React from 'react'
 
 function Access() {
   return (
-    <div className='w-full h-300 mt-12'>
+    <div className='w-full mb-30 mt-15'>
         <div className='w-full flex'>
             <div className='m-auto'>
                 <p className='main-font text-4xl m-auto text-amber-400'>Access</p>
@@ -23,16 +24,28 @@ function Access() {
           referrerPolicy="no-referrer-when-downgrade"
         />
       </div>
-      <div className='main-font w-full flex mt-5 ml-1'>
-        <div className='w-[90%] h-30  m-auto'>
-            <p className='text-2xl'>攻玉社学園</p>
-            <p className='text-2xl'>東急目黒線</p>
-            <div className='flex'>
-                <p className='text-2xl'>不動前駅より徒歩</p>
-                <p className='text-2xl text-pink-400'>3分</p>
-            </div>
+      <div className='main-font w-full  mt-5 ml-1'>
+        <div className='w-full flex'>
+          <p className='text-2xl text-blue-400 m-auto'>攻玉社中学・高等学校</p>
         </div>
-
+        <div className='w-full flex'>
+          <p className='text-1xl m-auto'>〒141-0031</p>
+        </div>
+        <div className='w-full flex'>
+          <p className='text-1xl m-auto'>東京都品川区西五反田５丁目１４−２</p>
+        </div>
+        <div className='w-full flex mt-3'>
+          <p className='text-1xl m-auto text-2xl'>東急目黒線</p>
+        </div>
+        <div className='w-full flex text-2xl'>
+          <p className='text-1xl m-auto text-pink-400'>不動前駅より徒歩 <span className=''>3分</span></p>
+        </div>
+        <div className='w-full flex mt-3 text-gray-500'>
+          <p className='text-1xl m-auto'>(急行電車は停車しませんのでご注意ください)</p>
+        </div>
+        <div className='w-full flex mx-auto text-center leading-relaxed text-gray-500'>
+          <p className='text-1xl m-auto'>駐車場・駐輪場はございません。ご来校の際は公共交通機関をご利用ください。</p>
+        </div>
       </div>
     </div>
   )
