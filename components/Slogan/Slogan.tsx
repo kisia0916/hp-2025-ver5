@@ -2,10 +2,10 @@ import React from 'react'
 
 function Slogan() {
   return (
-    <div className='w-full mt-12'>
+    <div className='w-full mt-30'>
         <div className='w-full flex'>
             <div className='m-auto'>
-                <p className='main-font text-4xl m-auto text-pink-400'>Slogan</p>
+                <p className='main-font text-5xl m-auto text-pink-400 title-subfont'>Slogan</p>
                 <div className='w-full flex'>
                     <p className='main-font m-auto mt-1'>スローガン</p>
                 </div>

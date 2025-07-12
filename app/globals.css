@@ -32,6 +32,7 @@ body {
     font-optical-sizing: auto;
     font-weight: 900;
     font-style: normal;
+
 }
 .sub-font{
     font-family: "Zen Maru Gothic", sans-serif;
@@ -50,4 +51,76 @@ body {
   .responsive-text-year{
     margin-top: 15%;
   }
+}
+.bubble-bg {
+
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100vh; /* ヘッダーの高さを引く */
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+  position: fixed;
+}
+.bubble {
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(100, 180, 255, 0.18); /* さらに薄く */
+  box-shadow: 0 0 40px 10px rgba(100,180,255,0.10);
+  animation: bubble-float 10s infinite ease-in-out;
+  opacity: 0.5;
+}
+.bubble1 { width: 180px; height: 180px; left: 5%; bottom: -180px; animation-delay: 0s;}
+.bubble2 { width: 120px; height: 120px; left: 20%; bottom: -120px; animation-delay: 2s; }
+.bubble3 { width: 90px; height: 90px; left: 35%; bottom: -90px; animation-delay: 1s; }
+.bubble4 { width: 140px; height: 140px; left: 50%; bottom: -140px; animation-delay: 3s; }
+.bubble5 { width: 100px; height: 100px; left: 65%; bottom: -100px; animation-delay: 4s; }
+.bubble6 { width: 60px; height: 60px; left: 80%; bottom: -60px; animation-delay: 2.5s; }
+.bubble7 { width: 110px; height: 110px; left: 75%; bottom: -110px; animation-delay: 5s; }
+.bubble8 { width: 80px; height: 80px; left: 90%; bottom: -80px; animation-delay: 6s; }
+
+@keyframes bubble-float {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+    border-radius: 50%;
+  }
+
+  80% {
+    opacity: 1;
+    border-radius: 50%;
+  }
+
+  100% {
+    transform: translateY(-110vh) scale(1.2);
+    opacity: 0;
+    border-radius: 50%;
+  }
+}
+::-webkit-scrollbar {
+  width: 8px;
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(180,180,180,0.18);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(180,180,180,0.28);
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+/* Firefox用 */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(180,180,180,0.18) transparent;
+}
+
+.title-subfont {
+  font-family: "Modak", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }

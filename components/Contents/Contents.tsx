@@ -2,10 +2,10 @@ import React from 'react'
 
 function Contents() {
   return (
-    <div className='w-full mt-15'>
+    <div className='w-full mt-30'>
         <div className='w-full flex'>
             <div className='m-auto'>
-                <p className='main-font text-4xl m-auto text-blue-400'>Contents</p>
+                <p className='title-subfont text-5xl m-auto text-blue-400'>Contents</p>
                 <div className='w-full flex'>
                     <p className='main-font m-auto'>コンテンツ</p>
                 </div>

@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div className='h-70 bg-blue-500 flex rounded-t-3xl'>
+    <div className='h-70 bg-blue-500 flex rounded-t-3xl z-50  bottom-0 left-0 w-screen'>
         <div className='w-[90%] m-auto mt-10'>
             <div className='w-full main-font text-white'>
                     <p>第55回輝玉祭</p>

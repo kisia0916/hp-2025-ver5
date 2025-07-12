@@ -3,10 +3,10 @@ import React from 'react'
 
 function Access() {
   return (
-    <div className='w-full mb-30 mt-15'>
+    <div className='w-full mb-30 mt-30'>
         <div className='w-full flex'>
             <div className='m-auto'>
-                <p className='main-font text-4xl m-auto text-amber-400'>Access</p>
+                <p className='title-subfont text-5xl m-auto text-amber-400'>Access</p>
                 <div className='w-full flex'>
                     <p className='main-font m-auto'>アクセス</p>
                 </div>

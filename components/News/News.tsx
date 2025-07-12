@@ -7,7 +7,7 @@ function News() {
     <div className='w-full mt-10 '>
         <div className='w-full flex'>
             <div className='m-auto'>
-                <p className='main-font text-4xl m-auto text-amber-400'>News</p>
+                <p className='main-font text-5xl m-auto text-amber-400 title-subfont'>News</p>
                 <div className='w-full flex'>
                     <p className='main-font m-auto'>ニュース</p>
                 </div>
