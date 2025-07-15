@@ -34,6 +34,20 @@ body {
     font-style: normal;
 
 }
+.main-font-thin{
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+
+}
+.main-font-thin-2{
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+}
 .sub-font{
     font-family: "Zen Maru Gothic", sans-serif;
   font-weight: 700;

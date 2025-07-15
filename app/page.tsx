@@ -1,15 +1,15 @@
-import Access from "@/components/Access/Access";
-import Contents from "@/components/Contents/Contents";
-import Footer from "@/components/Footer/Footer";
+import Access from "@/components/HP/Access/Access";
+import Contents from "@/components/HP/Contents/Contents";
+import Footer from "@/components/HP/Footer/Footer";
 import News from "@/components/News/News";
-import Slogan from "@/components/Slogan/Slogan";
-import Top from "@/components/Top/Top";
-import TopBar from "@/components/TopBar/TopBar";
+import Slogan from "@/components/HP/Slogan/Slogan";
+import Top from "@/components/HP/Top/Top";
+import TopBar from "@/components/HP/TopBar/TopBar";
 
-import DeskTopTopBar from "@/components/TopBar/DeskTopTopBar";
-import MenuBar from "@/components/Menu/MenuBar";
-import Hero from "@/components/Hero/Hero";
-import MenuTop from "@/components/Menu/MenuTop";
+import DeskTopTopBar from "@/components/HP/TopBar/DeskTopTopBar";
+import MenuBar from "@/components/HP/Menu/MenuBar";
+import Hero from "@/components/HP/Hero/Hero";
+import MenuTop from "@/components/HP/Menu/MenuTop";
 
 export default function Home() {
   return (
