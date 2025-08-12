@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 function DeskTopTopBar() {
   return (
@@ -8,7 +9,7 @@ function DeskTopTopBar() {
               <div className='w-full flex justify-between'>
                   <div className='flex '>
                       <div className='m-auto mt-5'>
-                          <img src="/logo/logo4.png" className={`w-10 h-10 mr-2`}/>
+                          <Image src="/logo/logo4.png" width={40} height={40} alt="Logo" className="mr-2" />
                       </div>
                       <div className='m-auto mr-2 mt-[14px] text-2xl ml-1'>
                           <p className='main-font text-gray-500'>第55回輝玉祭</p>

@@ -23,7 +23,7 @@ function TopBar() {
           <div className={`h-17 flex justify-between bg-[#fafafa] transition-all duration-300 z-50 mx-auto ${scrolled ? 'w-[92%] fixed top-5 left-0 right-0 shadow-md rounded-[50px] bg-white' : 'w-full'}`}>
               <div className={`flex  ${scrolled ? 'ml-0' : 'ml-3'}`}>
                   <div className='m-auto'>
-                      <img src="/logo/logo4.png" className={`w-8 h-8 mr-2 ${scrolled?"ml-3":""}`}/>
+                      <Image src="/logo/logo4.png" width={32} height={32} alt="Logo" className={`mr-2 ${scrolled?"ml-3":""}`} />
                   </div>
                   <div className='m-auto mr-2 mt-[14px]'>
                       <p className='main-font'>第55回輝玉祭</p>

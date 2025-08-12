@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 function Contents() {
   return (
@@ -14,13 +15,13 @@ function Contents() {
         <div className='w-[40%] h-[1px] bg-black m-auto rounded-2xl mt-3 mb-3'></div>
         <div className='w-[90%] flex mt-8 justify-around m-auto'>
             <div className=''>
-                <img src="/icon/instagram.svg" className='w-12 m-auto'/>
+                <Image src="/icon/instagram.svg" width={48} height={48} alt="Instagram" className="m-auto" />
             </div>
             <div className=''>
-                <img src="/icon/x.svg" className='w-12'/>
+                <Image src="/icon/x.svg" width={48} height={48} alt="X (Twitter)" />
             </div>
             <div className=''>
-                <img src="/icon/youtube.svg" className='w-12'/>
+                <Image src="/icon/youtube.svg" width={48} height={48} alt="YouTube" />
             </div>
         </div>
         <div className='w-[90%] mt-7 m-auto main-font'>

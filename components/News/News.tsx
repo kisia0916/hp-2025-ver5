@@ -1,6 +1,5 @@
 import React from 'react'
 import NewsContent from './NewsContent/NewsContent'
-import MoreButton from './MoreButton/MoreButton'
 
 function News() {
   return (

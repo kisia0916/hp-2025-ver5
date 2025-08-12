@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 function DeskTopTop() {
   return (
@@ -25,7 +26,7 @@ function DeskTopTop() {
             <div className='w-[90%] m-auto flex justify-around'>
               <div className='w-15 h-15'>
           <div className='w-full flex'>
-            <img src="/icon/instagram.svg" className='w-10 m-auto'/>
+            <Image src="/icon/instagram.svg" width={40} height={40} alt="Instagram" className="m-auto" />
           </div>
           <div className='w-full flex'>
             <p className='m-auto text-[10px] main-font'>@kigyokusai</p>
@@ -33,7 +34,7 @@ function DeskTopTop() {
               </div>
               <div className='w-15 h-15'>
           <div className='w-full flex'>
-            <img src="/icon/youtube.svg" className='w-10 m-auto'/>
+            <Image src="/icon/youtube.svg" width={40} height={40} alt="YouTube" className="m-auto" />
           </div>
           <div className='w-full flex'>
             <p className='m-auto text-[10px] main-font'>@kigyokusai</p>
@@ -41,7 +42,7 @@ function DeskTopTop() {
               </div>
               <div className='w-15 h-15'>
           <div className='w-full flex'>
-            <img src="/icon/x.svg" className='w-10 m-auto'/>
+            <Image src="/icon/x.svg" width={40} height={40} alt="X (Twitter)" className="m-auto" />
           </div>
           <div className='w-full flex'>
             <p className='m-auto text-[10px] main-font'>@kigyokusai</p>
@@ -55,7 +56,7 @@ function DeskTopTop() {
               <div className='w-[90%] m-auto'>
                   <div className='w-15 h-15 mb-5'>
                     <div className='w-full flex'>
-                      <img src="/icon/instagram.svg" className='w-10 m-auto'/>
+                      <Image src="/icon/instagram.svg" width={40} height={40} alt="Instagram" className="m-auto" />
                     </div>
                     <div className='w-full flex'>
                       <p className='m-auto text-[8px] main-font'>@kigyokusai</p>
@@ -63,7 +64,7 @@ function DeskTopTop() {
                   </div>
                   <div className='w-15 h-15 mb-5'>
                   <div className='w-full flex'>
-                    <img src="/icon/youtube.svg" className='w-10 m-auto'/>
+                    <Image src="/icon/youtube.svg" width={40} height={40} alt="YouTube" className="m-auto" />
                   </div>
                   <div className='w-full flex'>
                     <p className='m-auto text-[8px] main-font'>@kigyokusai</p>
@@ -71,7 +72,7 @@ function DeskTopTop() {
                       </div>
                       <div className='w-15 h-15 mb-5'>
                   <div className='w-full flex'>
-                    <img src="/icon/x.svg" className='w-10 m-auto'/>
+                    <Image src="/icon/x.svg" width={40} height={40} alt="X (Twitter)" className="m-auto" />
                   </div>
                   <div className='w-full flex'>
                     <p className='m-auto text-[8px] main-font'>@kigyokusai</p>
