@@ -1,23 +1,21 @@
-import Access from "@/components/HP/Access/Access";
-import Contents from "@/components/HP/Contents/Contents";
-import Footer from "@/components/HP/Footer/Footer";
-import News from "@/components/News/News";
-import Slogan from "@/components/HP/Slogan/Slogan";
-import Top from "@/components/HP/Top/Top";
-import TopBar from "@/components/HP/TopBar/TopBar";
+// import Access from "@/components/HP/Access/Access";
+// import Contents from "@/components/HP/Contents/Contents";
+// import Footer from "@/components/HP/Footer/Footer";
+// import News from "@/components/News/News";
+// import Slogan from "@/components/HP/Slogan/Slogan";
+// import Top from "@/components/HP/Top/Top";
+// import TopBar from "@/components/HP/TopBar/TopBar";
 
-import DeskTopTopBar from "@/components/HP/TopBar/DeskTopTopBar";
-import MenuBar from "@/components/HP/Menu/MenuBar";
-import Hero from "@/components/HP/Hero/Hero";
-import MenuTop from "@/components/HP/Menu/MenuTop";
+// import DeskTopTopBar from "@/components/HP/TopBar/DeskTopTopBar";
+// import MenuBar from "@/components/HP/Menu/MenuBar";
+// import Hero from "@/components/HP/Hero/Hero";
+// import MenuTop from "@/components/HP/Menu/MenuTop";
 
 export default function Home() {
   return (
     <>
-    {/* <Loading/> */}
-    <div className="w-full overflow-hidden flex relative bg-[#F8FAFC]">
+    {/* <div className="w-full overflow-hidden flex relative bg-[#F8FAFC]">
 
-        {/* モバイル */}
         <div className="block md:hidden w-full m-auto relative z-10">
           <div
               className="absolute inset-0 opacity-40 -z-20"
@@ -42,7 +40,8 @@ export default function Home() {
               </div>
             </div>
         </div>
-        {/* デスクトップ */}
+
+
         <div className="hidden md:block w-full relative z-10">
           <div className="absolute w-full h-screen flex left-0 top-0 -z-10">
               <img src={"/photo/bg7.png"} className="w-full h-full object-cover"/>
@@ -80,8 +79,13 @@ export default function Home() {
           </div>
         </div>
     </div>
-          <Footer/>
-    
+          <Footer/> */}
+        <div className="w-full h-screen flex">
+        <div className="m-auto text-center">
+          <p className="soon-font text-6xl">KIGYOKUSAI 2025</p>
+          <p className="soon-font text-6xl">COMING SOON</p>
+        </div>
+    </div>
     </>
   );
 }
