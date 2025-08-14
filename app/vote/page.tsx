@@ -58,7 +58,7 @@ const votingOptions = [
                   asChild
                   className={`w-full ${option.color} text-white border-0 font-medium py-6 text-lg group-hover:shadow-md transition-all duration-300`}
                 >
-                  <a href={option.href}>このコンテストに投票</a>
+                  <a href={option.href}>投票する</a>
                 </Button>
               </CardContent>
             </Card>
