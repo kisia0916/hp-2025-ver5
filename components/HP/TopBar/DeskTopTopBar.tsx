@@ -7,14 +7,12 @@ function DeskTopTopBar() {
           <div className='w-full flex'>
             <div className='md:block w-[92%] m-auto h-15 justify-between flex rounded-[50px] '>
               <div className='w-full flex justify-between'>
-                  <div className='flex '>
-                      <div className='m-auto mt-5'>
-                          <Image src="/logo/logo4.png" width={40} height={40} alt="Logo" className="mr-2" />
+                  <div className='flex'>
+                    <div className='w-60 h-15 flex border-1 border-gray-800 rounded-full bg-white mt-5'>
+                      <div className='m-auto text-2xl'>
+                          <span className='main-font text-black'>第55回輝玉祭</span>
                       </div>
-                      <div className='m-auto mr-2 mt-[14px] text-2xl ml-1'>
-                          <p className='main-font text-gray-500'>第55回輝玉祭</p>
-                          <p className='main-font leading-[10px] text-gray-500'>KIGYOKUSAI</p>
-                      </div>
+                    </div>
                   </div>  
               </div>
             </div>
