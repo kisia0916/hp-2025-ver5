@@ -6,7 +6,6 @@ import Footer from "@/components/HP/Footer/Footer";
 import News from "@/components/News/News";
 import Slogan from "@/components/HP/Slogan/Slogan";
 import Top from "@/components/HP/Top/Top";
-import TopBar from "@/components/HP/TopBar/TopBar";
 
 import DeskTopTopBar from "@/components/HP/TopBar/DeskTopTopBar";
 import MenuBar from "@/components/HP/Menu/MenuBar";

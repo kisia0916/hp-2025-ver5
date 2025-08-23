@@ -9,14 +9,7 @@ function Footer() {
                     <p>第55回輝玉祭</p>
                     <p className='leading-[10px]'>KIGYOKUSAI 2025</p>
             </div>
-            {/* <div className="w-full grid grid-cols-3 gap-4 mt-3 text-black main-font">
-                <div>Top</div>
-                <div className="">News</div>
-                <div className="">About</div>
-                <div className="">Slogan</div>
-                <div className="">Contents</div>
-                <div className="">Access</div>
-            </div> */}
+
             <div className='w-full h-[1px] bg-black rounded-2xl mt-5'></div>
             <div className='w-full'>
                                 <div className='w-full flex mt-5'>
