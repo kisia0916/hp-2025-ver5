@@ -5,7 +5,6 @@ function HeroTop() {
       const rotateTextRefMobile = useRef<HTMLDivElement>(null);
       const rotateTextRefDesktop = useRef<HTMLDivElement>(null);
       const topBarRef = useRef<HTMLDivElement>(null);
-      const [now_text,set_now_text] = React.useState<string>('KIGYOKUSAI:2025');
       const [isMenuOpen, setIsMenuOpen] = useState(false);
       const [showFloatingMenu, setShowFloatingMenu] = useState(false);
       useEffect(() => {

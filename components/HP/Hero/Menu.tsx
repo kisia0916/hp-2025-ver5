@@ -4,13 +4,15 @@ import React from 'react'
 
 function Menu(props: {showFloatingMenu: boolean}) {
     const scrollToSection = (sectionId: string) => {
-      const element:any = document.getElementById(sectionId);
+      const element = document.getElementById(sectionId);
       // 要素の位置までスクロール
-      element.scrollIntoView({
-        behavior: 'smooth',
-        block: 'start',
-        inline: 'start'
-      });
+      if (element){
+        element.scrollIntoView({
+          behavior: 'smooth',
+          block: 'start',
+          inline: 'start'
+        });
+      }
     }
 
   return (
