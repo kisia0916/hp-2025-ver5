@@ -130,22 +130,22 @@ export default function Home() {
                       />
                       <div className="w-full flex">
                         <div className="m-auto w-[92%] mt-0">
-                          <div id="countdown2" className="mt-30">
+                          <div id="countdown2" className="mt-40">
                             <CountDown/>
                           </div>
-                          <div id="news2" className="mt-30">
+                          <div id="news2" className="mt-40">
                             <News/>
                           </div>
-                          <div id="about2" className="mt-30">
+                          <div id="about2" className="mt-40">
                             <About/>
                           </div>
-                          <div id="slogan2" className="mt-30">
+                          <div id="slogan2" className="mt-40">
                             <Slogan/>
                           </div>
-                          <div id="contents2" className="mt-30">
+                          <div id="contents2" className="mt-40">
                             <Contents/>
                           </div>
-                          <div id="access2" className="mt-30">
+                          <div id="access2" className="mt-40">
                             <Access/>
                           </div>
                           <div className="h-30"></div>
