@@ -87,7 +87,7 @@ function Contents() {
                                 onClick={() => handleClick(instagramLink)}
                                 className='m-auto w-[80%] h-6 sm:h-8 rounded-full border-1 border-gray-800 bg-[#c8ff46] flex cursor-pointer hover:bg-[#b8ef36] transition-colors duration-200'
                             >
-                                <span className='m-auto main-font text-[12px] sm:text-[16px]'>Go site</span>
+                                <span className='m-auto main-font text-[12px] sm:text-[16px]'>Go to site</span>
                             </div>
                         </div>
                     </div>
@@ -105,7 +105,7 @@ function Contents() {
                                 onClick={() => handleClick(xLink)}
                                 className='m-auto w-[80%] h-6 sm:h-8 rounded-full border-1 border-gray-800 bg-[#c8ff46] flex cursor-pointer hover:bg-[#b8ef36] transition-colors duration-200'
                             >
-                                <span className='m-auto main-font text-[12px] sm:text-[16px]'>Go site</span>
+                                <span className='m-auto main-font text-[12px] sm:text-[16px]'>Go to site</span>
                             </div>
                         </div>
                     </div>
@@ -123,7 +123,7 @@ function Contents() {
                                 onClick={() => handleClick(youtubeLink)}
                                 className='m-auto w-[80%] h-6 sm:h-8 rounded-full border-1 border-gray-800 bg-[#c8ff46] flex cursor-pointer hover:bg-[#b8ef36] transition-colors duration-200'
                             >
-                                <span className='m-auto main-font text-[12px] sm:text-[16px]'>Go site</span>
+                                <span className='m-auto main-font text-[12px] sm:text-[16px]'>Go to site</span>
                             </div>
                         </div>
                     {/* </div>
