@@ -18,7 +18,7 @@ function Access() {
       },
       {
         rootMargin: '0px',
-        threshold: 1 // 10%が見えた時にトリガー
+        threshold: 0.7 // 10%が見えた時にトリガー
       }
     );
 
