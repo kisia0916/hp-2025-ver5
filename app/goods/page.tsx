@@ -1,5 +1,6 @@
 "use client"
 import GoodsCard from "@/components/Goods/GoodsCard"
+import Link from "next/link"
 
 function page() {
 
@@ -17,7 +18,7 @@ function page() {
         
       <div className="w-full max-w-[700px] m-auto relative">
         <div className="w-full flex mt-8">
-        <a href="/" className="m-auto style-font-1 text-4xl">KIGYOKUSAI2025</a>
+        <Link href="/" className="m-auto style-font-1 text-4xl">KIGYOKUSAI2025</Link>
         </div>
         <div className='w-full flex z-100 mt-4'>
         <div className='m-auto w-50 h-12 border-1 rounded-full border-gray-800 bg-blue-400'>
