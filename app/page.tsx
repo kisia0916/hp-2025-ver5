@@ -30,17 +30,7 @@ export default function Home() {
     `;
     document.head.appendChild(style);
 
-    // ページの高さを動的に設定してスクロール可能にする
-    const setPageHeight = () => {
-      if (mainScrollRef.current) {
-        const mainContentHeight = mainScrollRef.current.scrollHeight;
-        document.body.style.height = `${Math.max(mainContentHeight * 1.5, window.innerHeight * 2)}px`;
-      }
-    };
 
-    // 初期設定
-    setTimeout(setPageHeight, 100);
-    
 
   }, []);
 
