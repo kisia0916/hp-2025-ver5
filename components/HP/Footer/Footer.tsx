@@ -41,7 +41,7 @@ function Footer() {
                                             <Image src="/icon/youtube.svg" width={24} height={24} alt="YouTube" />
                                         </a>
                                 </div>
-                <p className='main-font text-black text-[10px] mt-3'>©2025 55st kigyokusai mugen created by fumi</p>
+                <p className='main-font text-black text-[10px] mt-3'>©2025 55st kigyokusai mugen created by fumiharu abe</p>
             </div>
         </div>
     </div>
