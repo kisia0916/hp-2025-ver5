@@ -35,7 +35,7 @@ function page() {
           <GoodsCard img="akuki-.png" title="アクリルキーホルダー" value={600}/>
           <GoodsCard img="blue_pen.png" title="シャーペン (blue)" value={700}/>
           <GoodsCard img="pen.png" title="シャーペン(pink)" value={700}/>
-          <GoodsCard img="クリアファイル１表.png" title="クリアファイル１"img_back="file3.png" value={300}/>
+          <GoodsCard img="クリアファイル１表.png" title="クリアファイル１"img_back="file1_back.png" value={300}/>
           <GoodsCard img="file2-front.png" title="クリアファイル２" img_back="file2-back.png" value={300}/>
         </div>
        </div>
