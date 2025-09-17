@@ -57,9 +57,10 @@ function News() {
                 <div className='h-6'>
 
                 </div>
+                <NewsContent date='2025.09.17' link='https://kurumi.kigyokusai.com' is_bottom={false} title='デジタルパンフレットを公開しました！'/>
                 <NewsContent date='2025.08.22' link='https://kigyokusai.com' is_bottom={false} title='ホームページを公開しました！'/>
-                <NewsContent date='2025.08.19' link='https://www.instagram.com/p/DNfQWJpTfY0/?hl=ja' is_bottom={false} title='カウントダウンを開始しました！'/>
-                <NewsContent date='2025.06.12' link='https://x.com/kigyokusai' is_bottom={true} title='SNS投稿が始まりました！'/>
+                <NewsContent date='2025.08.19' link='https://www.instagram.com/p/DNfQWJpTfY0/?hl=ja' is_bottom={true} title='カウントダウンを開始しました！'/>
+                {/* <NewsContent date='2025.06.12' link='https://x.com/kigyokusai' is_bottom={true} title='SNS投稿が始まりました！'/> */}
                 <div className='h-7'>
 
                 </div>

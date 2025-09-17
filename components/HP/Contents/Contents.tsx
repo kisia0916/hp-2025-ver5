@@ -2,6 +2,8 @@
 import React, { useEffect, useState, useRef } from 'react'
 import Image from 'next/image'
 import { useRouter } from 'next/navigation'
+import { ArrowUpRight } from 'lucide-react';
+import GoodsCard from '@/components/Goods/GoodsCard';
 
 function Contents() {
   const [isVisible, setIsVisible] = useState(false);
@@ -20,7 +22,7 @@ function Contents() {
       },
       {
         rootMargin: '0px',
-        threshold: 1 // 10%が見えた時にトリガー
+        threshold: 0 // 10%が見えた時にトリガー
       }
     );
 
@@ -50,6 +52,8 @@ function Contents() {
   const instagramLink ='https://www.instagram.com/kigyokusai/';
   const xLink = 'https://x.com/kigyokusai';
   const youtubeLink = 'https://www.youtube.com/@kigyokusai';
+  const kurumiLink = 'https://kurumi.kigyokusai.com';
+  const goodsLink = 'https://kigyokusai.com/goods';
   return (
     <>
 
@@ -72,67 +76,134 @@ function Contents() {
                 </div>
             </div>
             <div className='w-full flex'>
-                <div className='flex m-auto mt-10 px-4 sm:px-0'>
-                    <div className='w-28 sm:w-35 h-36 sm:h-45 border-1 border-gray-800 rounded-2xl sm:rounded-3xl bg-white transform rotate-10 relative z-10'>
-                        <div className='w-full flex mt-3 sm:mt-5'>
-                            <Image
-                                src="/icon/Instagram_Glyph_Gradient.svg"
-                                alt="Contents Image"
-                                width={400}
-                                height={400}
-                                className='w-14 sm:w-18 m-auto object-cover'/>
-                        </div>
-                        <div className='w-full flex mt-8 sm:mt-8'>
+              <div className='w-full'>
+                <div className='w-full flex'>
+                  <div className='flex mt-10 px-4 sm:px-0 m-auto'>
+                      <div className='w-28 sm:w-35 h-36 sm:h-45 border-1 border-gray-800 rounded-2xl sm:rounded-3xl bg-white transform rotate-10 relative z-10'>
+                          <div className='w-full flex mt-3 sm:mt-5'>
+                              <Image
+                                  src="/icon/Instagram_Glyph_Gradient.svg"
+                                  alt="Contents Image"
+                                  width={400}
+                                  height={400}
+                                  className='w-14 sm:w-18 m-auto object-cover'/>
+                          </div>
+                          <div className='w-full flex mt-8 sm:mt-8'>
+                              <div 
+                                  onClick={() => handleClick(instagramLink)}
+                                  className='m-auto w-[80%] h-6 sm:h-8 rounded-full border-1 border-gray-800 bg-[#c8ff46] flex cursor-pointer hover:bg-[#b8ef36] transition-colors duration-200'
+                              >
+                                  <span className='m-auto main-font text-[12px] sm:text-[16px]'>Go to site</span>
+                              </div>
+                          </div>
+                      </div>
+                      <div className='w-28 sm:w-35 h-36 sm:h-45 border-1 border-gray-800 rounded-2xl sm:rounded-3xl bg-white transform -rotate-6 relative z-20 ml-1'>
+                          <div className='w-full flex mt-3 sm:mt-6'>
+                              <Image
+                                  src="/icon/logo-black.png"
+                                  alt="Contents Image"
+                                  width={400}
+                                  height={400}
+                                  className='w-12 sm:w-15 m-auto object-cover'/>
+                          </div>
+                          <div className='w-full flex mt-9 sm:mt-10'>
+                              <div 
+                                  onClick={() => handleClick(xLink)}
+                                  className='m-auto w-[80%] h-6 sm:h-8 rounded-full border-1 border-gray-800 bg-[#c8ff46] flex cursor-pointer hover:bg-[#b8ef36] transition-colors duration-200'
+                              >
+                                  <span className='m-auto main-font text-[12px] sm:text-[16px]'>Go to site</span>
+                              </div>
+                          </div>
+                      </div>
+                      <div className='w-28 sm:w-35 h-36 sm:h-45 border-1 border-gray-800 rounded-2xl sm:rounded-3xl bg-white transform rotate-5 relative z-30 ml-1'>
+                          <div className='w-full flex mt-2 sm:mt-4'>
+                              <Image
+                                  src="/icon/YouTube_23392.png"
+                                  alt="Contents Image"
+                                  width={400}
+                                  height={400}
+                                  className='w-16 sm:w-20 m-auto object-cover'/>
+                          </div>
+                          <div className='w-full flex mt-6 sm:mt-7'>
+                              <div 
+                                  onClick={() => handleClick(youtubeLink)}
+                                  className='m-auto w-[80%] h-6 sm:h-8 rounded-full border-1 border-gray-800 bg-[#c8ff46] flex cursor-pointer hover:bg-[#b8ef36] transition-colors duration-200'
+                              >
+                                  <span className='m-auto main-font text-[12px] sm:text-[16px]'>Go to site</span>
+                              </div>
+                          </div>
+                      {/* </div>
+                  </div> */}
+                              {/* </div>
+                          </
+                          div> */}
+                      </div>
+                  </div>
+                  </div>
+                <div className='w-full m-auto mt-20'>
+                  <div className='w-full flex'>
+                    <span className='main-font text-2xl m-auto text-blue-400'>デジタルパンフレット</span>
+                  </div>
+                  <div className='w-full flex mt-8'>
+                              <Image
+                                  src="/contents/kurumi-for-web.png"
+                                  alt="Contents Image"
+                                  width={400}
+                                  height={400}
+                                  className='w-[80%]  m-auto object-cover rounded-2xl'/>
+                  </div>
+                  
+                  <div className='w-full flex mt-10'>
+                    <span className='main-font text-[18px] m-auto'>輝玉祭ではお使いのブラウザから企画マップや食品販売状況が確認できるのデジタルパンフレットがご利用いただけます。</span>
+                  </div>
+                  <div className='w-full flex mt-6'>
                             <div 
-                                onClick={() => handleClick(instagramLink)}
-                                className='m-auto w-[80%] h-6 sm:h-8 rounded-full border-1 border-gray-800 bg-[#c8ff46] flex cursor-pointer hover:bg-[#b8ef36] transition-colors duration-200'
+                                onClick={() => handleClick(kurumiLink)}
+                                className='m-auto w-[60%]  h-13 sm:h-13 rounded-full border-1 border-gray-800 bg-[#c8ff46] flex cursor-pointer hover:bg-[#b8ef36] transition-colors duration-200'
                             >
-                                <span className='m-auto main-font text-[12px] sm:text-[16px]'>Go to site</span>
+                              <div className='flex m-auto'>
+                                  <span className='main-font text-[16px] sm:text-[16px]'>今すぐ使う！</span>
+                                  <ArrowUpRight />
+                              </div>
                             </div>
-                        </div>
-                    </div>
-                    <div className='w-28 sm:w-35 h-36 sm:h-45 border-1 border-gray-800 rounded-2xl sm:rounded-3xl bg-white transform -rotate-6 relative z-20 ml-1'>
-                        <div className='w-full flex mt-3 sm:mt-6'>
-                            <Image
-                                src="/icon/logo-black.png"
-                                alt="Contents Image"
-                                width={400}
-                                height={400}
-                                className='w-12 sm:w-15 m-auto object-cover'/>
-                        </div>
-                        <div className='w-full flex mt-9 sm:mt-10'>
+                  </div>
+
+                <div className='w-full m-auto mt-20'>
+                  <div className='w-full flex'>
+                    <span className='main-font text-3xl m-auto text-blue-400'>Goods</span>
+                  </div>
+                  {/*グッズリスト*/}
+                    <div
+                      className="grid grid-cols-2 gap-5 sm:gap-8 m-auto mt-10 relative"
+                      style={{
+                        // 上は不透明(1)、下に向かって透明(0)へ
+                        maskImage: 'linear-gradient(to bottom, rgba(0,0,0,1) 60%, rgba(0,0,0,0))',
+                        WebkitMaskImage: 'linear-gradient(to bottom, rgba(0,0,0,1) 40%, rgba(0,0,0,0))',
+                      } as React.CSSProperties}
+                    >
+                    <GoodsCard img="akuki-.png" title="アクリルキーホルダー" value={600}/>
+                    <GoodsCard img="blue_pen.png" title="シャーペン (blue)" value={700}/>
+                    <GoodsCard img="pen.png" title="シャーペン(pink)" value={700}/>
+                    <GoodsCard img="pen.png" title="シャーペン(pink)" value={700}/>
+                  </div>
+
+                  <div className='w-full flex '>
                             <div 
-                                onClick={() => handleClick(xLink)}
-                                className='m-auto w-[80%] h-6 sm:h-8 rounded-full border-1 border-gray-800 bg-[#c8ff46] flex cursor-pointer hover:bg-[#b8ef36] transition-colors duration-200'
+                                onClick={() => handleClick(goodsLink)}
+                                className='m-auto w-[60%]  h-13 sm:h-13 rounded-full border-1 border-gray-800 bg-[#c8ff46] flex cursor-pointer hover:bg-[#b8ef36] transition-colors duration-200'
                             >
-                                <span className='m-auto main-font text-[12px] sm:text-[16px]'>Go to site</span>
+                              <div className='flex m-auto'>
+                                  <span className='main-font text-[16px] sm:text-[16px]'>もっと見る</span>
+                                  <ArrowUpRight />
+                              </div>
                             </div>
-                        </div>
-                    </div>
-                    <div className='w-28 sm:w-35 h-36 sm:h-45 border-1 border-gray-800 rounded-2xl sm:rounded-3xl bg-white transform rotate-5 relative z-30 ml-1'>
-                        <div className='w-full flex mt-2 sm:mt-4'>
-                            <Image
-                                src="/icon/YouTube_23392.png"
-                                alt="Contents Image"
-                                width={400}
-                                height={400}
-                                className='w-16 sm:w-20 m-auto object-cover'/>
-                        </div>
-                        <div className='w-full flex mt-6 sm:mt-7'>
-                            <div 
-                                onClick={() => handleClick(youtubeLink)}
-                                className='m-auto w-[80%] h-6 sm:h-8 rounded-full border-1 border-gray-800 bg-[#c8ff46] flex cursor-pointer hover:bg-[#b8ef36] transition-colors duration-200'
-                            >
-                                <span className='m-auto main-font text-[12px] sm:text-[16px]'>Go to site</span>
-                            </div>
-                        </div>
-                    {/* </div>
-                </div> */}
-                            {/* </div>
-                        </div> */}
-                    </div>
+                  </div>
+                </div>
+
+                </div>
                 </div>
             </div>
+
         </div>
 
     </>
