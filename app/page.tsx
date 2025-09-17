@@ -37,7 +37,7 @@ export default function Home() {
   return (
     <>
 
-    <div className="w-full overflow-y-scroll md:overflow-y-hidden h-screen flex bg-[#F8FAFC]  relative z-10">
+    <div className="w-full overflow-y-scroll overflow-x-hidden md:overflow-y-hidden h-screen flex bg-[#F8FAFC]  relative z-10">
       <div className="w-full m-auto md:hidden">
         <HeroTop/>
         <Hero/>

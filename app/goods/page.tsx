@@ -31,7 +31,7 @@ function page() {
         </div>
        </div>
        <div className="w-full flex  mt-10">
-        <span className="m-auto main-font text-[20px]">グッズは<Link href="https://kurumi.kigyokusai.com/map/project/9b70e619-f7b2-4a6c-aad5-2a5b0963ef96?floor=cabdc17c-0d14-4a8f-9714-ba024465e014" className="text-blue-500 underline">校庭</Link>で販売中！
+        <span className="m-auto main-font text-[20px]">グッズは一号館6階で販売中！
         </span>
        </div>
        <div className="w-full flex mt-12">
