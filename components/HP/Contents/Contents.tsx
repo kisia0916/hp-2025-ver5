@@ -142,6 +142,23 @@ function Contents() {
                   </div>
                 <div className='w-full m-auto mt-20'>
                   <div className='w-full flex'>
+                    <span className='main-font text-2xl m-auto text-blue-400'>ゲスト</span>
+                  </div>
+                  <div className='w-full flex mt-8'>
+                      <Image
+                          src="/contents/guest.jpg"
+                          alt="Contents Image"
+                          width={400}
+                          height={400}
+                          className='w-[80%]  m-auto object-cover rounded-2xl'/>
+                  </div>
+                  <div className="w-full flex mt-5 ">
+                    <p className="main-font text-[18px] m-auto text-center break-words">
+                      講演会のチケットは10:00から広報部門受付にて先着順で配布します！
+                    </p>
+                  </div>
+
+                  <div className='w-full flex mt-12'>
                     <span className='main-font text-2xl m-auto text-blue-400'>デジタルパンフレット</span>
                   </div>
                   <div className='w-full flex mt-8'>
@@ -152,9 +169,11 @@ function Contents() {
                                   height={400}
                                   className='w-[80%]  m-auto object-cover rounded-2xl'/>
                   </div>
-                  
-                  <div className='w-full flex mt-10'>
-                    <span className='main-font text-[18px] m-auto'>輝玉祭ではお使いのブラウザから企画マップや食品販売状況が確認できるのデジタルパンフレットがご利用いただけます。</span>
+                
+                    <div className="w-full flex mt-5 ">
+                    <p className="main-font text-[18px] m-auto text-center break-words">
+                      輝玉祭ではお使いのブラウザから企画マップや食品販売状況が確認できるのデジタルパンフレットがご利用いただけます。
+                    </p>
                   </div>
                   <div className='w-full flex mt-6'>
                             <div 
