@@ -64,7 +64,7 @@ export default function Home() {
                     <Slogan/>
 
                 </div>
-                <div id="contents" className="h-440 mt-30">
+                <div id="contents" className="h-580 mt-30">
                     <Contents/>
                 </div>
                 <div id="access" className="h-170 mt-40">
