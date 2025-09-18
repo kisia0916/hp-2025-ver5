@@ -11,7 +11,7 @@ const votingOptions = [
       description: "攻玉社一のイケメンは誰だ！",
       icon: <Users className="h-6 w-6" />,
       color: "bg-blue-500 hover:bg-blue-600",
-      href: "/vote/project-a",
+      href: "https://docs.google.com/forms/d/e/1FAIpQLSd862t58o1FbCIzx_SBr6BvPgKDZnxZ_-ExITWReqw4BGjm5A/viewform",
     },
     {
       id: 2,
@@ -19,7 +19,7 @@ const votingOptions = [
       description: "攻玉社一の美女は誰だ！",
       icon: <Users className="h-6 w-6" />,
       color: "bg-pink-500 hover:bg-pink-600",
-      href: "/vote/project-b",
+      href: "https://docs.google.com/forms/d/e/1FAIpQLSeqrcoyIdc-W6Vox4HnAb47NuouVdSqKWDKN4ZFAhnnLc5GOg/viewform",
     },
     {
       id: 3,
@@ -27,13 +27,21 @@ const votingOptions = [
       description: "攻玉社一のボディビルダーは誰だ！",
       icon: <Trophy className="h-6 w-6" />,
       color: "bg-purple-500 hover:bg-purple-600",
-      href: "/vote/project-c",
+      href: "https://docs.google.com/forms/d/e/1FAIpQLSdzy83VHjmE2l24ePvNN8W9KEj0zb7EAW25DUW0DEDpcZHXsw/viewform",
+    },
+    {
+      id: 4,
+      title: "GYOKUSEN",
+      description: "最も輝いている団体はどれだ！",
+      icon: <Trophy className="h-6 w-6" />,
+      color: "bg-amber-500 hover:bg-purple-600",
+      href: "https://docs.google.com/forms/d/e/1FAIpQLSdeNJj2wj9WAxOMfi0PUTfmhodkVSbFBt3WIpcq1UPcGjx11g/viewform",
     },
   ]
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100 dark:from-slate-900 dark:to-slate-800">
-      <div className="container mx-auto px-4 py-12">
+    <div className=" bg-gradient-to-br from-slate-50 to-slate-100 dark:from-slate-900 dark:to-slate-800">
+      <div className=" mx-auto px-4 py-12">
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold text-foreground mb-4">輝玉祭2025 投票フォーム</h1>
         </div>
