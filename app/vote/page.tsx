@@ -1,6 +1,6 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
-import { Users, Trophy } from 'lucide-react'
+import { Users, Trophy, Hamburger } from 'lucide-react'
 import React from 'react'
 
 function page() {
@@ -19,6 +19,8 @@ const votingOptions = [
       description: "攻玉社一の美女は誰だ！",
       icon: <Users className="h-6 w-6" />,
       color: "bg-pink-500 hover:bg-pink-600",
+      type:"vote",
+
       href: "https://docs.google.com/forms/d/e/1FAIpQLSeqrcoyIdc-W6Vox4HnAb47NuouVdSqKWDKN4ZFAhnnLc5GOg/viewform",
     },
     {
@@ -27,6 +29,8 @@ const votingOptions = [
       description: "攻玉社一のボディビルダーは誰だ！",
       icon: <Trophy className="h-6 w-6" />,
       color: "bg-purple-500 hover:bg-purple-600",
+      type:"vote",
+
       href: "https://docs.google.com/forms/d/e/1FAIpQLSdzy83VHjmE2l24ePvNN8W9KEj0zb7EAW25DUW0DEDpcZHXsw/viewform",
     },
     {
@@ -34,8 +38,19 @@ const votingOptions = [
       title: "GYOKUSEN",
       description: "最も輝いている団体はどれだ！",
       icon: <Trophy className="h-6 w-6" />,
-      color: "bg-amber-500 hover:bg-purple-600",
+      color: "bg-amber-500 hover:bg-amber-600",
+      type:"vote",
       href: "https://docs.google.com/forms/d/e/1FAIpQLSdeNJj2wj9WAxOMfi0PUTfmhodkVSbFBt3WIpcq1UPcGjx11g/viewform",
+    },
+        {
+      id: 5,
+      title: "食品アンケート",
+      description: "食品の感想を教えてください",
+      icon: <Hamburger className='h-6 w-6'/>,
+      color: "bg-green-500 hover:bg-green-600",
+      type:"question",
+
+      href: "https://docs.google.com/forms/d/e/1FAIpQLSfEOgTSoX2kf73v6To7qZkhUUxWJgO96YZ8uRnEDAKWY1R2WA/viewform?usp=dialog",
     },
   ]
 
@@ -66,7 +81,7 @@ const votingOptions = [
                   asChild
                   className={`w-full ${option.color} text-white border-0 font-medium py-6 text-lg group-hover:shadow-md transition-all duration-300`}
                 >
-                  <a href={option.href}>投票する</a>
+                  <a href={option.href}>{option.type === "vote"?"投票する":"回答する"}</a>
                 </Button>
               </CardContent>
             </Card>
