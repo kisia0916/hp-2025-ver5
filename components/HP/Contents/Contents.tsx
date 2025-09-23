@@ -155,8 +155,8 @@ function Contents() {
                   </div>
                   <div className='w-full flex mt-8'>
                       <Image
-                          src="/contents/sign.jpg"
-                          alt="Contents Image"
+                          src="/contents/sign-img.jpg"
+                          alt="Contents Image2"
                           width={400}
                           height={400}
                           className='w-[80%]  m-auto object-cover rounded-2xl'/>
