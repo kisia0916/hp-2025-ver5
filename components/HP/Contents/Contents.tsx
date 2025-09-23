@@ -153,12 +153,19 @@ function Contents() {
                           height={400}
                           className='w-[80%]  m-auto object-cover rounded-2xl'/>
                   </div>
-                  <div className="w-full flex mt-5 ">
+                  <div className='w-full flex mt-8'>
+                      <Image
+                          src="/contents/sign.jpg"
+                          alt="Contents Image"
+                          width={400}
+                          height={400}
+                          className='w-[80%]  m-auto object-cover rounded-2xl'/>
+                  </div>
+                    <div className="w-full flex mt-5 ">
                     <p className="main-font text-[18px] m-auto text-center break-words">
-                      講演会のチケットは9月20日10:00から<Link className='text-blue-400' href={"https://kurumi.kigyokusai.com/map/project/77ecaafb-1093-43c0-b624-f907c2fcb9b4?floor=2835e951-8d64-482a-91e1-3a1a49e3fe4d"}>一号館１階受付</Link>にて先着順で配布します！
+                      高藤選手にサインをいただきました！
                     </p>
                   </div>
-
                   <div className='w-full flex mt-12'>
                     <span className='main-font text-2xl m-auto text-blue-400'>デジタルパンフレット</span>
                   </div>
